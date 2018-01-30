@@ -24,7 +24,7 @@ let field_1 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "SOWING",
-    "noLeafsOut": 3,
+    "noLeafsOut": 0,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
@@ -119,7 +119,7 @@ let field_2 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "EMERGENCE",
-    "noLeafsOut": 3,
+    "noLeafsOut": 0,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
@@ -297,7 +297,7 @@ let field_4 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "TEN_TO_FOURTEEN",
-    "noLeafsOut": 3,
+    "noLeafsOut": 13,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
@@ -386,7 +386,7 @@ let field_5 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "FIFTEEN_TO_TASSELING",
-    "noLeafsOut": 3,
+    "noLeafsOut": 17,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
@@ -475,7 +475,7 @@ let field_6 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "FLOWERING",
-    "noLeafsOut": 3,
+    "noLeafsOut": 17,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
@@ -548,7 +548,6 @@ let field_6 = {
   }
 }
 
-
 let field_7 = {
   "fieldId": "gg9mnqg",
   "fieldName": "Test 7",
@@ -565,7 +564,7 @@ let field_7 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "SLAG",
-    "noLeafsOut": 3,
+    "noLeafsOut": 17,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
@@ -654,7 +653,7 @@ let field_8 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "GRAIN45",
-    "noLeafsOut": 3,
+    "noLeafsOut": 17,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
@@ -737,7 +736,7 @@ let field_9 = {
   "modelResult": {
     "modelStatus": null,
     "currentStep": "PHYSIOLOGICAL_MATURITY",
-    "noLeafsOut": 3,
+    "noLeafsOut": 17,
     "hydricStress": {
       "noDaysToStress": 2,
       "reserve": 23.4,
