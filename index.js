@@ -157,6 +157,31 @@ app.get('/fields', function (req, res) {
 })
 
 
+app.get('/account/profile', function (req, res) {
+  let payload = {
+    "Avatar": null,
+    "Login": "user_maiseo",
+    "UserType": "Grower",
+    "UserTypeCode": "GROWER",
+    "CustomerLogoBytes": null,
+    "Address": null,
+    "City": null,
+    "CompanyName": "Test Patrice Galaup",
+    "CountryCode": "FRA",
+    "Customer": "MAISEO_MOBILE",
+    "CustomerCode": "MAISEO_MOBILE",
+    "Email": null,
+    "Firstname": "Patrice",
+    "Language": "fr-FR",
+    "Lastname": "GALAUP",
+    "Phone": null,
+    "PostCode": null,
+    "Uid": "5b9wd2z"
+  };
+
+  res.send(payload);
+})
+
 app.use('/static', express.static('public'))
 
 app.listen(3009, function () {
