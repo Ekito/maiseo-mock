@@ -12,7 +12,7 @@ let field_1 = {
   "fieldId": "rd9mnqg",
   "fieldName": "Test",
   "variety": "MAS51G",
-  "sowingDate": "2017-04-24T00:00:00",
+  "sowingDate": "2017-04-24T00:00:00.000Z",
   "soilInformations": {
     "clay": 0.3,
     "silt": 0.4,
@@ -30,17 +30,17 @@ let field_1 = {
       "reserve": 23.4,
       "criticalLevel": 12.3,
       "nextSteps": [{
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": "EMERGENCE"
       }, {
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": "TEN_TO_FOURTEEN"
       }],
       "nextLeaves": [{
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": 0
       }, {
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": 14
       }]
     },
@@ -49,17 +49,17 @@ let field_1 = {
       "reserve": 23.4,
       "criticalLevel": 12.3,
       "nextSteps": [{
-        "date": "2017-04-29T00:00:00",
+        "date": "2017-04-29T00:00:00.000Z",
         "value": "EMERGENCE"
       }, {
-        "date": "2017-04-30T00:00:00",
+        "date": "2017-04-30T00:00:00.000Z",
         "value": "TEN_TO_FOURTEEN"
       }],
       "nextLeaves": [{
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": 0
       }, {
-        "date": "2017-04-26T00:00:00",
+        "date": "2017-04-26T00:00:00.000Z",
         "value": 14
       }]
     },
@@ -76,25 +76,25 @@ let field_1 = {
   },
   "water": {
     "irrigation": [{
-      "date": "2017-04-25T00:00:00",
+      "date": "2017-04-25T00:00:00.000Z",
       "value": 0.5
     }, {
-      "date": "2017-04-26T00:00:00",
+      "date": "2017-04-26T00:00:00.000Z",
       "value": 0.4
     }],
     "rainfall": [{
-      "date": "2017-04-25T00:00:00",
+      "date": "2017-04-25T00:00:00.000Z",
       "value": 0.5,
       "isOverride": true
     }, {
-      "date": "2017-04-26T00:00:00",
+      "date": "2017-04-26T00:00:00.000Z",
       "value": 0.4,
       "isOverride": false
     }]
   },
   "weather": {
     "days": [{
-      "date": "2017-04-25T00:00:00",
+      "date": "2017-04-25T00:00:00.000Z",
       "temperatureMin": 10.2,
       "temperatureMax": 20.1,
       "rainfall": 2.5,
@@ -107,7 +107,7 @@ let field_2 = {
   "fieldId": "aa9mnqg",
   "fieldName": "Test 2",
   "variety": "MAS51G",
-  "sowingDate": "2017-04-24T00:00:00",
+  "sowingDate": "2017-04-24T00:00:00.000Z",
   "soilInformations": {
     "clay": 0.3,
     "silt": 0.4,
@@ -125,11 +125,11 @@ let field_2 = {
       "reserve": 23.4,
       "criticalLevel": 12.3,
       "nextSteps": [{
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": "PHYSIOLOGICAL_MATURITY"
       }],
       "nextLeaves": [{
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": 14
       }]
     },
@@ -138,11 +138,11 @@ let field_2 = {
       "reserve": 23.4,
       "criticalLevel": 12.3,
       "nextSteps": [{
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": "PHYSIOLOGICAL_MATURITY"
       }],
       "nextLeaves": [{
-        "date": "2017-04-25T00:00:00",
+        "date": "2017-04-25T00:00:00.000Z",
         "value": 14
       }]
     },
@@ -159,25 +159,25 @@ let field_2 = {
   },
   "water": {
     "irrigation": [{
-      "date": "2017-04-25T00:00:00",
+      "date": "2017-04-25T00:00:00.000Z",
       "value": 0.5
     }, {
-      "date": "2017-04-26T00:00:00",
+      "date": "2017-04-26T00:00:00.000Z",
       "value": 0.4
     }],
     "rainfall": [{
-      "date": "2017-04-25T00:00:00",
+      "date": "2017-04-25T00:00:00.000Z",
       "value": 0.5,
       "isOverride": true
     }, {
-      "date": "2017-04-26T00:00:00",
+      "date": "2017-04-26T00:00:00.000Z",
       "value": 0.4,
       "isOverride": false
     }]
   },
   "weather": {
     "days": [{
-      "date": "2017-04-25T00:00:00",
+      "date": "2017-04-25T00:00:00.000Z",
       "temperatureMin": 10.2,
       "temperatureMax": 20.1,
       "rainfall": 2.5,
@@ -196,11 +196,11 @@ app.put('/fields/:id/rainfalls/:date', function (req, res) {
 
 app.get('/fields/:id/rainfalls', function (req, res) {
   let payload = [{
-    "date": "2017-04-25T00:00:00",
+    "date": "2017-04-25T00:00:00.000Z",
     "value": 0.5,
     "isOverride": true
   }, {
-    "date": "2017-04-26T00:00:00",
+    "date": "2017-04-26T00:00:00.000Z",
     "value": 0.4,
     "isOverride": false
   }]
@@ -218,10 +218,10 @@ app.put('/fields/:id/irrigations/:date', function (req, res) {
 
 app.get('/fields/:id/irrigations', function (req, res) {
   let payload = [{
-    "date": "2017-04-25T00:00:00",
+    "date": "2017-04-25T00:00:00.000Z",
     "value": 0.5
   }, {
-    "date": "2017-04-26T00:00:00",
+    "date": "2017-04-26T00:00:00.000Z",
     "value": 0.4
   }]
 
