@@ -94,7 +94,7 @@ let field_1 = {
   },
   "weather": {
     "days": [{
-      "date": "2017-04-25T00:00:00.000Z",
+      "date": "2018-02-07T00:00:00.000Z",
       "temperatureMin": 10.2,
       "temperatureMax": 20.1,
       "rainfall": 2.5,
