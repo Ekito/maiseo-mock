@@ -99,6 +99,19 @@ let field_1 = {
       "temperatureMax": 20.1,
       "rainfall": 2.5,
       "etp": 5.3
+    },{
+      "date": "2018-02-12T00:00:00.000Z",
+      "temperatureMin": 10.2,
+      "temperatureMax": 20.1,
+      "rainfall": 2.5,
+      "etp": 4.1
+    },
+    {
+      "date": "2018-02-13T00:00:00.000Z",
+      "temperatureMin": 10.2,
+      "temperatureMax": 20.1,
+      "rainfall": 2.5,
+      "etp": 3.3
     }]
   }
 }
