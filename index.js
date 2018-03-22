@@ -8,6 +8,13 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json())
 
+const PORT = process.env.PORT || 5009 
+app.use('/static', express.static('public')); 
+ 
+app.listen(PORT, function () { 
+  console.log('Maiseo (Mock) server listening on port ${ PORT } !') 
+})
+
 let field_1 = {
   "fieldId": "rd9mnqg",
   "fieldName": "Test",
@@ -913,8 +920,3 @@ app.get('/account/profile', function (req, res) {
   res.send(payload);
 })
 
-app.use('/static', express.static('public'))
-
-app.listen(3009, function () {
-  console.log('Maiseo (Mock) server listening on port 3009 !')
-})
